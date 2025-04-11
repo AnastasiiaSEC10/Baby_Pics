@@ -1,14 +1,22 @@
 
 .footer {
-
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 40px 150px;
+    margin: 40px;
+    gap: 40px;
     background-color: rgba(255, 217, 218, 1);
 
 }
 
-.contacts {
+ .contacts {
     text-decoration: none;
+    color: $text-color;
+    font-size: $font-size-base;
+    font-family: $font-main;
+
+    
 
 }
+
 
