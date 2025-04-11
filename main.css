@@ -13,11 +13,11 @@
   height: auto;
 }
 
-.nav {
+.nav ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  padding: 10px 280px;
+  padding: 40px 280px;
   margin: 40px;
   gap: 40px;
   font-family: "Brush Script MT", sans-serif;
@@ -29,4 +29,8 @@
   font-size: 16px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 217, 218);
+}/*# sourceMappingURL=main.css.map */

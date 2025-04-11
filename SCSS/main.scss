@@ -1,6 +1,8 @@
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
+@use 'abstracts/variables';
+@use 'abstracts/mixins';
 
 
 //layout
-@import 'layout/header';
+@use'layout/header';
+
+@use'layout/footer'
