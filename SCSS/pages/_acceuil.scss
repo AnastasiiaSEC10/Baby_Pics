@@ -1,0 +1,17 @@
+main {
+    margin: 0;
+    font-family: $font-main;
+}
+.foto-grand {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.slogan {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    color: $text-color;
+}

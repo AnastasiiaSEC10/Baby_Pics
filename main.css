@@ -33,7 +33,7 @@
   display: flex;
   justify-content: space-between;
   padding: 40px 150px;
-  margin: 40px;
+  margin: 40px 0;
   gap: 40px;
   background-color: rgb(255, 217, 218);
 }
@@ -43,6 +43,25 @@
   color: #8A0126;
   font-size: 16px;
   font-family: "Brush Script MT", sans-serif;
+}
+
+main {
+  margin: 0;
+  font-family: "Brush Script MT", sans-serif;
+}
+
+.foto-grand {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: block;
+}
+
+.slogan {
+  text-align: center;
+  font-style: italic;
+  margin-top: 20px;
+  color: #8A0126;
 }
 
 /*# sourceMappingURL=main.css.map */
