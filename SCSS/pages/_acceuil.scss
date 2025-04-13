@@ -4,14 +4,19 @@ main {
 }
 .foto-grand {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1700px;
     margin: 0 auto;
     display: block;
 }
 
 .slogan {
-    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-size: 20px;
     font-style: italic;
     margin-top: 20px;
     color: $text-color;
 }
+
+ 
