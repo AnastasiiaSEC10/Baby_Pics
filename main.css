@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .logo {
   margin: 0;
   height: 150;
@@ -68,6 +69,21 @@ main {
   font-size: 20px;
   font-style: italic;
   color: #8A0126;
+}
+
+.galerie-container {
+  height: 100px;
+  display: grid;
+  gap: 10px;
+  grid-auto-columns: 200px;
+}
+
+.galerie-container .img {
+  width: auto;
+  height: 50px;
+  object-fit: cover; /* Изображение масштабируется и обрезается для заполнения рамки */
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /*# sourceMappingURL=main.css.map */
