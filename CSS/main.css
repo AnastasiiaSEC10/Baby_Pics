@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .logo {
   margin: 0;
   height: 150;
@@ -85,14 +86,14 @@ main {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-form {
+section .form {
   max-width: 600px;
   margin: 2rem auto;
   padding: 1.5rem;
-  border: 1px solid;
+  border: 1px solid rgb(138, 1, 38);
   border-radius: 8px;
-  background-color: #fafafa;
-  font-family: sans-serif;
+  background-color: rgb(251, 239, 231);
+  font-family: "Brush Script MT", sans-serif;
 }
 
 fieldset {
@@ -125,15 +126,26 @@ textarea {
 button {
   padding: 0.6rem 1.2rem;
   font-size: 1rem;
-  background-color: #007bff;
-  color: white;
+  background-color: rgb(251, 239, 231);
+  color: #8A0126;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: rgb(251, 239, 231);
 }
 
-/*# sourceMappingURL=main.css.map */
+main {
+  margin: 0;
+  font-family: "Brush Script MT", sans-serif;
+}
+
+.photograph {
+  display: block;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=main.css.map */
