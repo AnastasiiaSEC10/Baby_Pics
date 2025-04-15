@@ -140,16 +140,27 @@ button:hover {
 main {
   margin: 0;
   font-family: "Brush Script MT", sans-serif;
+  color: #8A0126;
 }
 
 .photograph {
   display: block;
-  margin: 0 auto;
-  max-width: 1000px;
+  margin: auto;
+  max-width: 500px;
   width: 100%;
   height: auto;
 }
 
+.text-apropos {
+  text-align: center;
+  margin: 30px 200px;
+}
+
+/*.photograph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}*/
 main {
   margin: 50px;
   font-family: "Brush Script MT", sans-serif;

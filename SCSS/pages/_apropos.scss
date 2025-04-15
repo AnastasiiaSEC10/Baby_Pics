@@ -1,13 +1,24 @@
-    
-    main {
-        margin: 0;
-        font-family: $font-main;
-    }
-    .photograph {
-        display: block;
-        margin: 0 auto;
-        max-width: 1000px;
-        width: 100%;
-        height: auto;
-
+main {
+    margin: 0;
+    font-family: $font-main;
+    color: $text-color;
 }
+.photograph {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+    
+.text-apropos {
+    text-align: center;
+    margin: 30px 200px;
+}
+
+
+/*.photograph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}*/
