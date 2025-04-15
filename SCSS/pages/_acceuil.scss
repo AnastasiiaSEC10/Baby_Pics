@@ -3,7 +3,7 @@ body {
 }
 main {
     margin: 0;
-    font-family: $font-main;
+   font-family: $font-main, cursive;
 }
 .foto-grand {
     width: 100%;
@@ -15,8 +15,8 @@ main {
 
 .slogan {
     text-align: right;
-    margin-left: 1000px;
-    padding-right: 90px;
+    margin-left: 700px;
+    padding-right: 50px;
     font-size: 20px;
     font-style: italic;
     color: $text-color;
