@@ -7,7 +7,9 @@ main {
 }
 .foto-grand {
     width: 100%;
-    max-width: 1700px;
+    max-width: 1600px;
+    height: 500px;
+    object-fit: cover;
     margin: 0 auto;
     display: block;
 }
@@ -16,7 +18,7 @@ main {
 .slogan {
     text-align: right;
     margin-left: 700px;
-    padding-right: 50px;
+    padding-right: 100px;
     font-size: 20px;
     font-style: italic;
     color: $text-color;
