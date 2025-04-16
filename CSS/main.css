@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .logo {
   margin: 0;
   height: 150;
@@ -73,19 +72,61 @@ main {
   color: #8A0126;
 }
 
+/*.galerie-container{
+    height: 100px;
+    display: grid;
+    gap: 10px;
+    grid-auto-columns: 200px;
+  }*/
 .galerie-container {
-  height: 100px;
   display: grid;
-  gap: 10px;
-  grid-auto-columns: 200px;
+  grid-template-rows: 430px 430px 430px 430px;
+  grid-template-columns: 430px 430px 430px 430px;
+  padding: 25px;
 }
 
-.galerie-container .img {
-  width: auto;
-  height: 50px;
-  object-fit: cover; /* Изображение масштабируется и обрезается для заполнения рамки */
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.galerie-container > div {
+  box-shadow: inset 0 0 2px;
+}
+
+.photo1 {
+  grid-area: 1/1/2/3;
+}
+
+.photo2 {
+  grid-area: 1/3/3/4;
+}
+
+.photo3 {
+  grid-area: 1/4/2/5;
+}
+
+.photo4 {
+  grid-area: 2/1/3/2;
+}
+
+.photo5 {
+  grid-area: 2/2/3/3;
+}
+
+.photo6 {
+  grid-area: 2/4/4/5;
+}
+
+.photo7 {
+  grid-area: 3/1/4/3;
+}
+
+.photo8 {
+  grid-area: 3/1/4/3;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 section .form {
