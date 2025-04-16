@@ -1,0 +1,40 @@
+.table {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $background-color;
+  }
+
+  table {
+    border-collapse: collapse;
+    font-size: 24px;
+  }
+
+  td {
+    padding: 20px 40px;
+    border: 1px solid #999;
+  }
+
+  /* Убираем внешнюю рамку у всей таблицы */
+  table {
+    outline: none;
+  }
+
+  /* Убираем рамку снаружи таблицы */
+  table td:first-child {
+    border-left: none;
+  }
+
+  table tr:first-child td {
+    border-top: none;
+  }
+
+  table tr:last-child td {
+    border-bottom: none;
+  }
+
+  table td:last-child {
+    border-right: none;
+  }
