@@ -72,17 +72,12 @@ main {
   color: #8A0126;
 }
 
-/*.galerie-container{
-    height: 100px;
-    display: grid;
-    gap: 10px;
-    grid-auto-columns: 200px;
-  }*/
 .galerie-container {
   display: grid;
   grid-template-rows: 430px 430px 430px 430px;
   grid-template-columns: 430px 430px 430px 430px;
-  padding: 25px;
+  gap: 20px;
+  padding: 50px;
 }
 
 .galerie-container > div {
@@ -118,10 +113,10 @@ main {
 }
 
 .photo8 {
-  grid-area: 3/1/4/3;
+  grid-area: 3/3/4/4;
 }
 
-img {
+.galerie-container img {
   width: 100%;
   max-width: 100%;
   height: 100%;
