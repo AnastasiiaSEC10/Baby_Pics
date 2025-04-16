@@ -31,5 +31,8 @@
     color: $text-color;
     font-size: $font-size-base;
 }
+.nav a.active {
+    text-decoration: underline;
+}
 
 
