@@ -1,40 +1,48 @@
-.table {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: $background-color;
-  }
+main {
+  margin: 100px;
+  font-family: $font-main;
+  color: $text-color;
+}
 
-  table {
-    border-collapse: collapse;
-    font-size: 24px;
-  }
+.tarifs-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
 
-  td {
-    padding: 20px 40px;
-    border: 1px solid #999;
-  }
+.pricing-card {
+  background-color: $color-fragment;
+  border: 2px solid #ffd1dc;
+  border-radius: 8px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(255, 182, 193, 0.2);
+  transition: transform 0.3s ease;
+}
 
-  /* Убираем внешнюю рамку у всей таблицы */
-  table {
-    outline: none;
-  }
+ul {
+  padding: 0;
+  margin-bottom: 20px;
+}
 
-  /* Убираем рамку снаружи таблицы */
-  table td:first-child {
-    border-left: none;
-  }
+ul li {
+  margin-bottom: 10px;
+}
+.btn {
+  display: inline-block;
+  background-color: $background-color;
+  color: $text-color;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
-  table tr:first-child td {
-    border-top: none;
-  }
-
-  table tr:last-child td {
-    border-bottom: none;
-  }
-
-  table td:last-child {
-    border-right: none;
-  }
+.btn:hover {
+  background-color: #f58ca5;
+}
