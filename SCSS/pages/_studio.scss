@@ -1,0 +1,21 @@
+main {
+    margin: 50px;
+    font-family: $font-main;
+}
+
+.studio-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.photo-studio {
+    width: 40%;
+    height: auto;
+}
+article {
+    max-width: 500px;
+    color: $text-color;
+
+}

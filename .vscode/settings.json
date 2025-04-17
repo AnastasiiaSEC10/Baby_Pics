@@ -1,0 +1,17 @@
+{
+    "liveSassCompile.settings.formats": [
+      {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/CSS"
+      }
+    ],
+    "liveSassCompile.settings.excludeList": [
+      "**/node_modules/**",
+      "**/*.css",
+      "**/_*.scss"
+    ],
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.autoprefix": [],
+    "liveSassCompile.settings.showOutputWindowOn": "Error"
+  }

@@ -1,0 +1,19 @@
+main {
+    margin: 0;
+    font-family: $font-main;
+    color: $text-color;
+}
+.photograph {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+    
+.text-apropos {
+    text-align: center;
+    margin: 30px 200px;
+}
+

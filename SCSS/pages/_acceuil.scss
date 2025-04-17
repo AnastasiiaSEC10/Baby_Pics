@@ -1,0 +1,75 @@
+body{
+    background-color: $background-color;
+}
+main {
+    margin: 0;
+   font-family: $font-main;
+}
+.foto-grand {
+    width: 100%;
+    max-width: 1600px;
+    height: 500px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+}
+
+
+.slogan {
+    text-align: right;
+    margin-left: 700px;
+    padding-right: 120px;
+    font-size: 30px;
+    color: $text-color;
+    font-style: normal;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .reviews {
+    padding: 40px;
+    background-color: $background-color;
+    text-align: center;
+  }
+  
+  .reviews-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .review-card {
+    background-color: $color-fragment;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 280px;
+    text-align: center;
+  }
+  
+  .review-card img {
+    width: 60px;
+    height: 60px;
+   border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .review-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: $color-fragment;
+    color: $text-color;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .review-button:hover {
+    background-color: #f58ca5;
+  }
+  
+ 
