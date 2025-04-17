@@ -1,4 +1,4 @@
-/*.logo {
+.logo {
   text-align: center;
   padding: 20px 0;
 }
@@ -143,11 +143,11 @@ main {
   padding: 10px 50px;
 }
 
-.galerie-container > div {
-  /*box-shadow: inset 0 0  2px;
+/*.galerie-container > div {
+  box-shadow: inset 0 0  2px;
 }*/
 
-/*.photo1 {
+.photo1 {
   grid-area: 1/1/2/3;
 }
 
