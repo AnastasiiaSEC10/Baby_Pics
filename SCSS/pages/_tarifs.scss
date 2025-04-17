@@ -1,5 +1,5 @@
 main {
-  margin: 100px;
+  margin: 0px;
   font-family: $font-main;
   color: $text-color;
 }
@@ -7,7 +7,7 @@ main {
 .tarifs-container {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 70px;
   padding: 40px 20px;
   flex-wrap: wrap;
 }

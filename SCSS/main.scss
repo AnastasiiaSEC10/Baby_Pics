@@ -3,8 +3,6 @@
 
 @import'./abstracts/mixins';
 
-@import'./base/basestyle';
-
 @import'./layout/header';
 
 @import'./layout/footer';
@@ -15,11 +13,11 @@
 
 @import'./components/formulaire';
 
-@import'./pages/apropos';
+@import'./pages/tarifs';
 
 @import'./pages/studio';
 
-@import'./pages/blog';
+@import'./pages/apropos';
 
-@import'./pages/tarifs';
+@import'./pages/blog';
 

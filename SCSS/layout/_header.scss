@@ -1,32 +1,23 @@
-
 .logo {
-    margin: 0;
-    height: 150;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; 
-    margin-top: 20px; 
-    max-width: 100%;
-    
+    text-align: center;
+    padding: 20px 0;
 }
 .size-logo {
     width: 150px;
     height: auto;
+    border-radius: 8px
 }
 
 .nav ul{
-
    list-style: none;
    display: flex;
    justify-content: space-around;
-   padding: 40px 280px;
-   margin: 40px;
+   padding: 30px 280px;
+   margin: 0px;
    gap: 40px;
    font-family: $font-main;
-
 }
 .nav li a {
-    
     text-decoration: none;
     color: $text-color;
     font-size: $font-size-base;
@@ -34,5 +25,4 @@
 .nav a.active {
     text-decoration: underline;
 }
-
 

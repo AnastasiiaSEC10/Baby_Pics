@@ -3,7 +3,7 @@ body {
 }
 main {
     margin: 0;
-   font-family: $font-main, cursive;
+   font-family: $font-main;
 }
 .foto-grand {
     width: 100%;
@@ -18,10 +18,12 @@ main {
 .slogan {
     text-align: right;
     margin-left: 700px;
-    padding-right: 60px;
-    font-size: 20px;
-    font-style: italic;
+    padding-right: 120px;
+    font-size: 30px;
     color: $text-color;
-}
+    font-style: normal;
+    font-family: "Dancing Script", cursive;
+  }
+
 
  
