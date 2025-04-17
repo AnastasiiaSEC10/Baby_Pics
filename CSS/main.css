@@ -65,6 +65,7 @@ main {
   object-fit: cover;
   margin: 0 auto;
   display: block;
+  border-radius: 5px;
 }
 
 .slogan {
@@ -77,6 +78,52 @@ main {
   font-family: "Dancing Script", cursive;
 }
 
+.reviews {
+  padding: 40px;
+  background-color: rgb(251, 239, 231);
+  text-align: center;
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.review-card {
+  background-color: rgb(255, 217, 218);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 280px;
+  text-align: center;
+}
+
+.review-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.review-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: rgb(255, 217, 218);
+  color: #8A0126;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.review-button:hover {
+  background-color: #f58ca5;
+}
+
 .galerie-container {
   display: grid;
   grid-template-rows: 430px 430px 430px 430px;
@@ -86,7 +133,7 @@ main {
 }
 
 .galerie-container > div {
-  box-shadow: inset 0 0 2px;
+  /*box-shadow: inset 0 0  2px;*/
 }
 
 .photo1 {
@@ -139,6 +186,7 @@ main {
   height: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 5px;
 }
 
 .contacts-container {
@@ -191,13 +239,14 @@ button {
   font-size: 1rem;
   background-color: rgb(251, 239, 231);
   color: #8A0126;
+  font-weight: bold;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: rgb(251, 239, 231);
+  background-color: #f58ca5;
 }
 
 main {
@@ -237,6 +286,7 @@ ul li {
   display: inline-block;
   background-color: rgb(251, 239, 231);
   color: #8A0126;
+  font-weight: bold;
   text-decoration: none;
   border: none;
   border-radius: 10px;
@@ -284,6 +334,7 @@ main {
   max-width: 500px;
   width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 .text-apropos {
@@ -327,6 +378,7 @@ main {
   height: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 5px;
 }
 
 .photo2-blog {
@@ -335,6 +387,7 @@ main {
   height: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 5px;
 }
 
 .text1-blog {
